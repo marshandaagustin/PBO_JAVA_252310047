@@ -6,6 +6,7 @@ public class Latihan05 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
+<<<<<<< HEAD
         System.out.print("Masukkan jumlah baris: ");
         int baris = input.nextInt();
 
@@ -26,3 +27,13 @@ public class Latihan05 {
         input.close();
     }
 }
+=======
+        System.out.print("Masukkan sebuah kalimat: ");
+        String teks = input.nextLine();
+
+        System.out.println("Hasil: " + teks.toUpperCase());
+
+        input.close();
+    }
+}
+>>>>>>> branch 'main' of https://github.com/marshandaagustin/PBO_JAVA_252310047

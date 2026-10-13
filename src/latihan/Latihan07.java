@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Latihan07 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+<<<<<<< HEAD
         Resto resto = new Resto();
 
         char ulang;
@@ -20,6 +21,17 @@ public class Latihan07 {
         } while (ulang == 'y' || ulang == 'Y');
 
         System.out.println("Terimakasih telah memesan.");
+=======
+
+        System.out.print("Masukkan nama lengkap: ");
+        String nama = input.nextLine();
+
+        String hasil = nama.replaceAll(
+            "(?i)[aiueo]", "X"
+        );
+
+        System.out.println("Hasil: " + hasil);
+>>>>>>> branch 'main' of https://github.com/marshandaagustin/PBO_JAVA_252310047
 
         input.close();
     }
